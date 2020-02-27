@@ -35,11 +35,10 @@ The solution set must not contain duplicate triplets.
       [-1, 0, 1],
       [-1, -1, 2]
     ]
-**Ans**
+**Ans:**
 
     class Solution:
         def threeSum(self, nums: List[int]) -> List[List[int]]:
-
             res = set()
             nums=sorted(nums)
             length = len(nums)
